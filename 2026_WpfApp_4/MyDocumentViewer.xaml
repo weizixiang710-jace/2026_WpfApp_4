@@ -29,11 +29,11 @@
                 </Button>
             </ToolBar>
             <ToolBar x:Name="EditingToolbar" Height="40" Width="612" Background="#FFA7D45A">
-                <ToggleButton x:Name="BoldButton" Height="38" Width="38">
-                    <Image Height="20" Width="20" Source=" bold.png" />
+                <ToggleButton x:Name="BoldButton" Height="38" Width="38" Command="EditingCommands.ToggleBold">
+                    <Image Height="20" Width="20" Source="/2026_WpfApp_4;component/bold.png"/>
                 </ToggleButton>
-                <ToggleButton x:Name="ItalicButton" Height="38" Width="38">
-                    <Image Height="20" Width="20" Source=" italic.png" />
+                <ToggleButton x:Name="ItalicButton" Height="38" Width="38" Command="EditingCommands.ToggleItalic">
+                    <Image Height="20" Width="20" Source="/2026_WpfApp_4;component/italic.png"/>
                 </ToggleButton>
                 <ToggleButton x:Name="UnderlineButton" Height="38" Width="38">
                     <Image Height="20" Width="20" Source="underline.png" />
