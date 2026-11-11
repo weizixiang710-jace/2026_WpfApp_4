@@ -10,6 +10,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="bold.png" />
+    <None Remove="italic.png" />
     <None Remove="new.png" />
     <None Remove="open.png" />
     <None Remove="save.png" />
@@ -22,6 +24,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="bold.png" />
+    <Resource Include="italic.png" />
     <Resource Include="new.png" />
     <Resource Include="open.png" />
     <Resource Include="save.png" />
