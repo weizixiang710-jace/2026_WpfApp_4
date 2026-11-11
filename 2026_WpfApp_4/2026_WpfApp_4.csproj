@@ -10,7 +10,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="new.png" />
+    <None Remove="open.png" />
+    <None Remove="save.png" />
+    <None Remove="trash.png" />
+    <None Remove="underline.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Extended.Wpf.Toolkit" Version="5.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="new.png" />
+    <Resource Include="open.png" />
+    <Resource Include="save.png" />
+    <Resource Include="trash.png" />
+    <Resource Include="underline.png" />
   </ItemGroup>
 
 </Project>

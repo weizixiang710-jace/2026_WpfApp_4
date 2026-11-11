@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Button x:Name="OpenButton" Content="開啟新文件"  Click="OpenButton_Click"  HorizontalAlignment="Left"  Margin="140,70,0,106" Background="#FFC86363"/>
     </Grid>
 </Window>
